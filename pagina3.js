@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (botonVolver) {
         botonVolver.addEventListener('click', (event) => {
             event.preventDefault();
-            window.location.href = 'pagina1.html';
+            window.location.href = 'index.html';
         });
     }
 });
