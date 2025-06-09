@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<superdeportivos>
+    <superdeportivo>
+        <modelo>Ferrari SF90 Stradale</modelo>
+        <velocidad>340 km/h</velocidad>
+        <aceleracion>2.5 s</aceleracion>
+        <potencia>1,000 CV</potencia>
+        <motor>V8 Híbrido 4.0L</motor>
+        <traccion>Integral (AWD)</traccion>
+        <peso>1,570 kg</peso>
+    </superdeportivo>
+    <superdeportivo>
+        <modelo>Lamborghini Aventador SVJ</modelo>
+        <velocidad>350 km/h</velocidad>
+        <aceleracion>2.8 s</aceleracion>
+        <potencia>770 CV</potencia>
+        <motor>V12 6.5L</motor>
+        <traccion>Integral (AWD)</traccion>
+        <peso>1,525 kg</peso>
+    </superdeportivo>
+    <superdeportivo>
+        <modelo>Bugatti Chiron Super Sport</modelo>
+        <velocidad>490 km/h</velocidad>
+        <aceleracion>2.4 s</aceleracion>
+        <potencia>1,600 CV</potencia>
+        <motor>W16 8.0L Quad-Turbo</motor>
+        <traccion>Integral (AWD)</traccion>
+        <peso>1,977 kg</peso>
+    </superdeportivo>
+</superdeportivos>

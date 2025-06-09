@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superdeportivos del Mundo</title>
+    <link rel="stylesheet" href="pagina1.css">
+</head>
+
+<body>
+    <header role="banner">
+        <h1 tabindex="0">Superdeportivos del Mundo</h1>
+        <nav role="navigation" aria-label="Menú principal">
+            <ul>
+                <li><a href="#definicion">¿Qué es un superdeportivo?</a></li>
+                <li><a href="#modelos">Modelos destacados</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <section id="ir-a-tecnologia" role="region" aria-labelledby="titulo-tecnologia">
+                <h2 id="titulo-tecnologia" tabindex="0">Explora más</h2>
+                <button id="boton-tecnologia">Ir a la página de Tecnología</button>
+            </section>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <section id="definicion" role="region" aria-labelledby="titulo-definicion">
+            <h2 id="titulo-definicion" tabindex="0">¿Qué es un superdeportivo?</h2>
+            <p tabindex="0">
+                Los superdeportivos son autos de alto rendimiento diseñados para velocidad extrema, ingeniería avanzada
+                y diseño aerodinámico.
+            </p>
+        </section>
+
+        <section id="modelos" role="region" aria-labelledby="titulo-modelos">
+            <h2 id="titulo-modelos" tabindex="0">Modelos destacados</h2>
+            <ul>
+                <li tabindex="0">Ferrari SF90 Stradale – 340 km/h</li>
+                <li tabindex="0">Lamborghini Aventador SVJ – 350 km/h</li>
+                <li tabindex="0">Bugatti Chiron Super Sport – 490 km/h</li>
+            </ul>
+        </section>
+
+        <section id="galeria" role="region" aria-labelledby="titulo-galeria">
+            <h2 id="titulo-galeria" tabindex="0">Galería</h2>
+
+            <figure tabindex="0" aria-label="Imagen de un Ferrari SF90">
+                <a href="sf90.html">
+                    <img src="sf90.jpg" alt="Ferrari SF90 rojo en pista" />
+                </a>
+                <figcaption>Ferrari SF90 Stradale</figcaption>
+            </figure>
+
+            <figure tabindex="0" aria-label="Imagen de un Lamborghini Aventador">
+                <a href="pagina2.html">
+                    <img src="svj.jpg" alt="Lamborghini Aventador SVJ verde" />
+                </a>
+                <figcaption>Lamborghini Aventador SVJ</figcaption>
+            </figure>
+
+            <figure tabindex="0" aria-label="Imagen de un Bugatti Chiron">
+                <a href="chiron.html">
+                    <img src="chiron.jpeg" alt="Bugatti Chiron en carretera" />
+                </a>
+                <figcaption>Bugatti Chiron Super Sport</figcaption>
+            </figure>
+        </section>
+
+        <section id="comparativa" role="region" aria-labelledby="comparativa-especificaciones">
+            <h2 id="comparativa-especificaciones" tabindex="0">Comparativa de Especificaciones</h2>
+            <div style="overflow-x: auto;">
+                <table tabindex="0" border="1" cellpadding="10" cellspacing="0"
+                    style="width:100%; border-collapse: collapse; margin-top: 1rem; background-color: #fff; text-align: center;">
+                    <caption style="caption-side: top; font-weight: bold; padding: 0.5rem;">
+                        Comparativa de Especificaciones
+                    </caption>
+                    <thead style="background-color: #c62828; color: white;">
+                        <tr>
+                            <th scope="col">Modelo</th>
+                            <th scope="col">Velocidad Máxima</th>
+                            <th scope="col">Aceleración (0-100 km/h)</th>
+                            <th scope="col">Potencia</th>
+                            <th scope="col">Motor</th>
+                            <th scope="col">Tracción</th>
+                            <th scope="col">Peso</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla-datos">
+                        <!-- Aquí puedes insertar los datos con JS o manualmente -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contacto" role="region" aria-labelledby="titulo-contacto">
+            <h2 id="titulo-contacto" tabindex="0">Contacto</h2>
+            <form aria-label="Formulario de contacto" id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required aria-required="true" />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required aria-required="true"></textarea>
+
+                <button type="submit" id="boton-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p tabindex="0">© 2025 Superdeportivos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="pagina1.js"></script>
+</body>
+
+</html>
